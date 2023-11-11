@@ -1,4 +1,4 @@
-# version=F38
+# version=F39
 
 # Use graphical install
 graphical
@@ -18,7 +18,7 @@ autopart
 bootloader --location=mbr --boot-drive=nvme0n1
 
 # OSTree setup
-ostreesetup --osname="fedora" --remote="fedora" --url="file:///ostree/repo" --ref="fedora/38/x86_64/silverblue" --nogpg
+ostreesetup --osname="fedora" --remote="fedora" --url="file:///ostree/repo" --ref="fedora/39/x86_64/silverblue" --nogpg
 
 # Firewall configuration
 firewall --use-system-defaults
